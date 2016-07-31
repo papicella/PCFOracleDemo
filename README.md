@@ -5,6 +5,8 @@ will use PCFDev a local version of PCF which you can run on your laptop. For mor
 
   https://pivotal.io/pcf-dev
 
+![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/pcf-oracle-1.png)
+
 <h3> Steps </h3>
 
 TODO://
