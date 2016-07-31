@@ -50,6 +50,21 @@ SCOTT@192.168.20.131:1521/ora11gr2> select * from emp;
 14 rows selected.
 ```
 
+- Create a local MAVEN repo for the Oracle 11g JDBC driver
+
+```
+<!--
+  Installed as follows to allow inclusion into pom.xml
+  mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.3 -Dpackaging=jar -Dfile=ojdbc6.jar
+    -DgeneratePom=true
+  -->
+  <dependency>
+   <groupId>com.oracle</groupId>
+   <artifactId>ojdbc6</artifactId>
+   <version>11.2.0.3</version>
+  </dependency> 
+```
+
 - Package as per below
 
 ```
