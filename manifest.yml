@@ -1,0 +1,7 @@
+---
+applications:
+- name: springboot-oracle
+  memory: 512M
+  instances: 1
+  host: springboot-oracle
+  path: ./target/pcforacledemo-0.0.1-SNAPSHOT.jar
